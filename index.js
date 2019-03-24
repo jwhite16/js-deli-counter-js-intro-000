@@ -16,7 +16,7 @@ function currentLine(katzDeliLine) {
   if (katzDeliLine.length > 0) {
 	var customer = "The line is currently: ";
     for(var i = 0; i < katzDeliLine.length; i++) {
-      if (i + 1 != katz.length) {
+      if (i + 1 != katzDeliLine.length) {
         customer = customer.concat(`${i + 1}. ${katzDeliLine[i]}, `);
       } else {
         customer = customer.concat(`${i + 1}. ${katzDeliLine[i]}.`);
