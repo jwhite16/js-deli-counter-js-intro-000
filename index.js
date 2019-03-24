@@ -19,7 +19,7 @@ function currentLine(katzDeliLine) {
       if (i + 1 != katzDeliLine.length) {
         customer = customer.concat(`${i + 1}. ${katzDeliLine[i]}, `);
       } else {
-        customer = customer.concat(`${i + 1}. ${katzDeliLine[i]}.`);
+        customer = customer.concat(`${i + 1}. ${katzDeliLine[i]}`);
       }
     } return customer
   } else {
